@@ -52,7 +52,7 @@ public class TestIterator {
 		map1.put(300, "cc");
 
 		Set<Entry<Integer, String>> ss = map1.entrySet();
-
+		System.out.println("===========迭代Map：Key-Value===========");
 		for (Iterator<Entry<Integer, String>> iter = ss.iterator(); iter.hasNext();) {
 			Entry temp = iter.next();
 			System.out.println(temp.getKey() + "-" + temp.getValue());
@@ -67,6 +67,7 @@ public class TestIterator {
 		map2.put(300, "cc");
 
 		Set<Integer> keySet = map2.keySet();
+		System.out.println("===========迭代Map：KeySet-Value===========");
 		for (Iterator<Integer> iter = keySet.iterator(); iter.hasNext();) {
 			Integer key = iter.next();
 			System.out.println(key + "-" + map2.get(key));

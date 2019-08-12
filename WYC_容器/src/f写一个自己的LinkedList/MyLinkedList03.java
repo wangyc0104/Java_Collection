@@ -2,7 +2,6 @@ package f写一个自己的LinkedList;
 
 /**
  * -自定义一个链表
- * 
  * @author 王以诚
  */
 public class MyLinkedList03 {

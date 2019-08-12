@@ -25,8 +25,9 @@ public class MyArrayList01 {
 	}
 
 	public String toString() {
+		// StringBuffer：线程安全的字符串构建器，性能低
+		// StringBuilder：线程不安全的字符串构建器，性能高
 		StringBuilder sb = new StringBuilder();
-
 		// 按照[a, b, c]的格式输出
 		sb.append("[");
 		for (int i = 0; i < size; i++) {
@@ -44,4 +45,5 @@ public class MyArrayList01 {
 		s1.add("bb");
 		System.out.println(s1.toString());
 	}
+	
 }

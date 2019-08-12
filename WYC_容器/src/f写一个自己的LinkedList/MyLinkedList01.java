@@ -10,6 +10,7 @@ public class MyLinkedList01 {
 	private Node first;
 	private Node last;
 
+	@SuppressWarnings("unused")
 	private int size;
 
 	// 添加一个新节点
@@ -70,4 +71,5 @@ public class MyLinkedList01 {
 		list.add("d");
 		System.out.println(list);
 	}
+	
 }

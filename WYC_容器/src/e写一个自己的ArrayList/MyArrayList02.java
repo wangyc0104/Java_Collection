@@ -44,4 +44,5 @@ public class MyArrayList02<E> {
 		s1.add("bb");
 		System.out.println(s1.toString());
 	}
+	
 }

@@ -2,7 +2,6 @@ package f写一个自己的LinkedList;
 
 /**
  * -自定义一个链表
- * 
  * @author 王以诚
  */
 public class MyLinkedList02 {
@@ -55,7 +54,7 @@ public class MyLinkedList02 {
 
 	// 练习写get方法
 	public Object getPractice(int index) {
-		if (index < 0||index > size -1) {
+		if (index < 0 || index > size - 1) {
 			throw new RuntimeException("索引不合法！");
 		} else {
 			Node temp;
@@ -73,7 +72,7 @@ public class MyLinkedList02 {
 			return temp;
 		}
 	}
-	
+
 	public String toString() {
 		StringBuilder sb = new StringBuilder("");
 		sb.append("[");
@@ -104,6 +103,5 @@ public class MyLinkedList02 {
 		System.out.println(list);
 		System.out.println(list.size);
 		System.out.println(list.get(2));
-
 	}
 }

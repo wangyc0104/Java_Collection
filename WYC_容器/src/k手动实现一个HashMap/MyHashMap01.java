@@ -34,7 +34,8 @@ public class MyHashMap01 {
 
 	public int myHash(int v, int length) {
 		// System.out.println("Hash in myHash(位运算)：" + (v & (length - 1)));
-		// System.out.println("Hash in myHash(模运算)：" + ((v + 1) % (length) - 1));
+		// System.out.println("Hash in myHash(模运算)：" + ((v + 1) % (length) -
+		// 1));
 		return v & (length - 1);
 	}
 

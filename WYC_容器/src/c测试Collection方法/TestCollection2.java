@@ -33,8 +33,8 @@ public class TestCollection2 {
 		System.out.println("list01.contains(list02): " + list01.contains(list02));
 
 		// list01.addAll(list02);
-		// list01.removeAll(list02); // 把list01和list02相同的部分删掉
-		list01.retainAll(list02); // 把list01和list02中相同的部分留下
+		// list01.removeAll(list02); // 删除两个集合的交集：把list01和list02相同的部分删掉
+		list01.retainAll(list02); // 取交集：把list01和list02中相同的部分留下
 
 		System.out.println("list01: " + list01);
 
